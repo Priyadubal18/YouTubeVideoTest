@@ -1,4 +1,3 @@
-// Put your YouTube API keys here!
-var YOUTUBE_API_KEY = 'YOUR_API_KEY_HERE';
+var YOUTUBE_API_KEY = 'AIzaSyAlPAU8l57Cp3Z2W879LOlDzJ9m4YhkieA';
 
 export default YOUTUBE_API_KEY;

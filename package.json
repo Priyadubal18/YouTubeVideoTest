@@ -8,7 +8,8 @@
   "scripts": {
     "test": "live-server --open=./SpecRunner.html --port=8081",
     "start": "live-server",
-    "build": "webpack -d --watch"
+    "build": "webpack -d --watch",
+    "compile": "concurrently --kill-others \"npm run build\" \"npm start\" \"npm test\""
   },
   "dependencies": {
     "babel-core": "6.24.1",
@@ -34,6 +35,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "6.24.1",
     "chai": "^3.5.0",
+    "concurrently": "^4.1.0",
     "enzyme": "2.8.2",
     "exports-loader": "0.6.4",
     "mocha": "2.3.3",

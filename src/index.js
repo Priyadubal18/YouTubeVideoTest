@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 
 //TODO: Use the Provider component to make your store available to
 //  the rest of your app
+console.log(store.getState());
 
 ReactDOM.render(
   <Provider store={store}>
